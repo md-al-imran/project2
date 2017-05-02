@@ -1,0 +1,1118 @@
+/*
+shisir imran.
+creative it institute 
+web 1706
+vershion:-1.1
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+body{
+    height: 2000px;
+}
+
+.wrapper{
+    width: 1140px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.header {
+  height: 465px;
+  position: relative;
+  width: 100%;
+  background-image:url(surfer-2212948.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
+
+.navbar {
+  background: rgba(82, 56, 55, 0.76) none repeat scroll 0 0;
+  height: 50px;
+  position: fixed;
+  width: 100%;
+  z-index: 99999999;
+}
+
+.overlay {
+  background-color: #000;
+  height: 465px;
+  opacity: 0.26;
+  position: absolute;
+  width: 100%;
+  z-index: 0;
+}
+
+.menubar ul{
+    float: right;
+}
+
+.logo {
+
+  float: left;
+  height: 50px;
+  width: 254px;
+}
+
+.logo img {
+  height: 47px;
+  margin-top: 1px;
+  width: 175px;
+}
+
+.menubar ul li {
+
+    display: inline-block;
+    font-size: 16px;
+    height: 100%;
+    list-style: outside none none;
+    margin: -2px;
+    padding: 16px 14px;
+    text-transform: uppercase;
+    width: 120px;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.5s linear;
+}
+
+.menubar ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.menubar ul li:hover {
+  background-color: #FF5400;
+}
+
+.menubar{
+    position: relative;
+}
+
+
+/****style for dropdown*********/
+
+.menubar ul li{
+    position: relative;
+}
+
+.menubar ul li ul {
+    position: absolute;
+    top: 51px;
+    left: 0;
+    
+}
+
+.menubar ul li ul li {
+  background: rgb(17, 17, 17) none repeat scroll 0 0;
+  padding: 19px 33px;
+  white-space: nowrap;
+  display: none;
+  transition: 0.5s linear;
+  
+}
+
+.menubar li ul li a {
+  font-size: 14px;
+  text-align: center;
+}
+
+.menubar ul li:hover > ul li{
+    display: block;
+}
+
+.headertext {
+  height: 282px;
+  position: absolute;
+  top: 119px;
+  width: 509px;
+}
+
+.headertext h1 {
+  text-align: center;
+  text-transform: uppercase;
+  padding: 17px 0px;
+  color: #ffff;
+}
+
+.headertext p {
+  color: #fff;
+  font-family: times new roman;
+  font-style: italic;
+  margin-left: 43px;
+  margin-right: 59px;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.btn1 > a {
+  border: 2px solid #708090;
+  color: #fff;
+  margin-left: 70px;
+  padding: 10px 33px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  top: 28px;
+  text-transform: uppercase;
+  background-color:#708090;
+  transition:all 0.4s linear;
+}
+
+.btn2 > a {
+  border: 2px solid #708090;
+  color: #fff;
+  margin-left: 16px;
+  padding: 10px 33px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  top: 28px;
+  background-color:#708090;
+  transition:all 0.4s linear;
+}
+
+.btn1 > a:hover{
+    background-color: transparent;
+    border:2px solid  rgb(255, 0, 108);
+}
+
+.btn2 > a:hover{
+    background-color: transparent;
+    border:2px solid rgb(255, 0, 108);
+}
+
+/******this is for container**********/
+
+#container1{
+    height: 363px;
+    width: 100%;
+    background-color: #ffffff;
+}
+
+.maincontainer1 {
+  height: 350px;
+  margin-top: 11px;
+  width: 100%;
+}
+
+.content1left{
+    height: 100%;
+    width: 327px;
+    float: left;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+}
+
+.content1left > img {
+  border: 7px solid #FF5400;
+  border-radius: 50%;
+  height: 81%;
+  width: 86%;
+  margin-top:10px;
+}
+
+
+
+
+.content1right{
+    height: 100%;
+    width: 788px;
+    border: 1px solid #e5e5e5;
+    float: right;
+    background-color: #e5e5e5;
+}
+
+.content1right > h1 {
+  font-size: 34px;
+  padding: 14px 18px;
+  text-transform: uppercase;
+  border-bottom: 4px solid #FF5400;
+  color: #516171;
+}
+
+.content1right span {
+  color: #ff5400;
+  font-size: 44px;
+  font-weight: 200;
+}
+
+.content1right > p {
+  color: #516171;
+  font-style: italic;
+  font-weight: 800;
+  margin-left: 79px;
+  margin-right: 79px;
+  
+}
+
+/***********start team section****************/
+
+#team{
+    height: 400px;
+    width: 100%;
+    background-color: #fff;
+}
+
+.maincontent2{
+    height: 400px;
+    width: 100%;
+}
+
+.maincontent2 > h1 {
+  border-bottom: 4px solid  #FF5400;
+  font-size: 35px;
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  top: 11px;
+  color: #516171;
+}
+
+.maincontent2 span {
+  color: #bf5f30;
+  font-size: 28px;
+  font-weight: 200;
+}
+
+.content2item1 {
+  float: left;
+  height: 86%;
+  width: 270px;
+  margin-top: 9px;
+  margin-left: 21px;
+  position: relative;
+}
+
+.content2item2 {
+  float: left;
+  height: 86%;
+  width: 270px;
+  margin-top: 9px;
+  margin-left: -1px;
+  margin-left: 3px;
+  position: relative;
+}
+
+.content2item3 {
+  float: left;
+  height: 86%;
+  width: 270px;
+  margin-top: 9px;
+  margin-left: 3px;
+  position: relative;
+}
+
+.content2item4 {
+  float: left;
+  height: 86%;
+  width: 270px;
+  margin-top: 9px;
+  margin-left: -1px;
+  margin-left: 3px;
+  position: relative;
+}
+
+.content2item1 > img {
+    height: 98%;
+    margin-top: 2px;
+    width: 100%;
+    cursor:pointer;
+    transition: all 0.5s linear;
+}
+
+.content2item2 > img {
+    height: 98%;
+    margin-top: 2px;
+    width: 100%;
+    cursor:pointer;
+}
+
+.content2item3 > img {
+    height: 98%;
+    margin-top: 2px;
+    width: 100%;
+    cursor:pointer;
+}
+
+.content2item4 > img {
+    height: 98%;
+    margin-top: 2px;
+    width: 100%;
+    cursor:pointer;
+}
+
+.content2itemhover {
+  background: #FF5400;
+  height: 0px;
+  position: absolute;
+  top: 2px;
+  width: 100%;
+  cursor: pointer;
+  transition: all 1s;
+}
+
+.content2item1:hover .content2itemhover {
+    height: 98%;
+}
+
+.content2item2:hover .content2itemhover {
+    height: 98%;
+}
+
+.content2item3:hover .content2itemhover {
+    height: 98%;
+}
+
+.content2item4:hover .content2itemhover {
+    height: 98%;
+}
+
+.content2itemhover >  a  > img {
+  display: none;
+  float: left;
+  height: 26px;
+  left: 62px;
+  margin-left: 9px;
+  position: relative;
+  top: 62%;
+}
+
+.content2item1:hover .content2itemhover img{
+    display: block;
+}
+
+.content2item2:hover .content2itemhover img{
+    display: block;
+}
+
+.content2item3:hover .content2itemhover img{
+    display: block;
+}
+
+.content2item4:hover .content2itemhover img{
+    display: block;
+}
+
+.content2itemhover > h1 {
+  border-bottom: 1px solid #e5e5e5;
+  color: #fff;
+  display: block;
+  margin: 0 auto;
+  opacity: 0;
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  top: 49px;
+  transition: all 1s linear;
+  width: 222px;
+}
+
+.content2item1:hover > .content2itemhover > h1{
+    opacity: 1;
+}
+
+.content2item2:hover > .content2itemhover > h1{
+    opacity: 1;
+}
+
+.content2item3:hover > .content2itemhover > h1{
+    opacity: 1;
+}
+
+.content2item4:hover > .content2itemhover > h1{
+    opacity: 1;
+}
+
+.content2itemhover > p {
+  border-bottom: 1px solid #e5e5e5;
+  font-style: italic;
+  margin: 0 30px;
+  position: absolute;
+  text-align: center;
+  top: 83px;
+  opacity: 0;
+  transition: all 0.8s linear;
+}
+
+.content2item1:hover > .content2itemhover > p{
+    opacity: 1;
+}
+
+.content2item2:hover > .content2itemhover > p{
+    opacity: 1;
+}
+
+.content2item3:hover > .content2itemhover > p{
+    opacity: 1;
+}
+
+.content2item4:hover > .content2itemhover > p{
+    opacity: 1;
+}
+
+
+/**********start boadiding section***************/
+
+#boadride{
+    height: 400px;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.maincontent_boadriding{
+    height: 400px;
+    width: 100%;
+}
+
+.boadridingleft{
+    height: 100%;
+    width: 375px;
+    float: left;
+    position: relative;
+}
+
+.boadridingleft > img {
+  cursor: pointer;
+  height: 100%;
+  width: 100%;
+}
+
+.boadoverlay{
+   position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+    opacity: 0.4;
+    cursor: pointer;
+}
+
+.boadridingright{
+    height: 100%;
+    width: 754px;
+    float: right;
+    border: 1px solid #e5e5e5;
+}
+
+.boadridingright h1 {
+  border-bottom: 3px solid #ff5400;
+  color: #516171;
+  font-size: 29px;
+  font-weight: 200;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.boadridingright span {
+  color: #ff5400;
+  font-size: 35px;
+}
+
+.boadridingright > p {
+  text-align: center;
+  margin: 11px 68px;
+  font-style: italic;
+  color: #516171;
+}
+
+.boadridingright button {
+  background: #ff5400 none repeat scroll 0 0;
+  border: 0 none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: bold;
+  margin-top: 14px;
+  padding: 10px 49px;
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.butonoverlay {
+  background: #746171;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 0px;
+  transition: all 0.7s linear;
+}
+
+.boadridingright button:hover .butonoverlay{
+    height: 100%;
+}
+
+.butonoverlay > a {
+  color: #ff5400;
+  opacity: 0;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  top: 10px;
+  transition: all 0.7s linear;
+}
+
+.boadridingright button:hover .butonoverlay > a{
+    opacity: 1;
+}
+
+/**********portfolio section***********/
+
+#portfolio{
+    height:523px;
+    width: 100%;
+    background-color: #e5e5e5;
+    margin-top: 10px;
+}
+
+.mainportfolio > h1 {
+  border-bottom: 3px solid #ff5400;
+  font-size: 25px;
+  font-weight: 200;
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  top: 5px;
+  color: #444457;
+}
+
+.portfoliotop{
+    height: 230px;
+    width: 100%;
+}
+
+.portfoliobottom {
+  border-top: 3px solid #ff5400;
+  height: 230px;
+  margin-top: 10px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.portfoliotopitem1{
+    float: left;
+    height: 96%;
+    margin-left: 9px;
+    margin-right: 1px;
+    margin-top: 4px;
+    width: 270px;
+    position: relative;
+}
+
+.portfoliotopitem2{
+    float: left;
+    height: 96%;
+    margin-left: 9px;
+    margin-right: 1px;
+    margin-top: 4px;
+    width: 270px;
+    position: relative;
+}
+
+.portfoliotopitem3{
+    float: left;
+    height: 96%;
+    margin-left: 9px;
+    margin-right: 1px;
+    margin-top: 4px;
+    width: 270px;
+    position: relative;
+}
+
+.portfoliotopitem4{
+    float: left;
+    height: 96%;
+    margin-left: 9px;
+    margin-right: 1px;
+    margin-top: 4px;
+    width: 270px;
+    position: relative;
+}
+
+.portfoliobottomitem1{
+    float: left;
+    height: 96%;
+    margin-left: 9px;
+    margin-right: 1px;
+    margin-top: 4px;
+    width: 270px;
+    position: relative;
+}
+
+.portfoliobottomitem2{
+    float: left;
+    height: 96%;
+    margin-left: 9px;
+    margin-right: 1px;
+    margin-top: 4px;
+    width: 270px;
+    position: relative;
+}
+
+.portfoliobottomitem3{
+    float: left;
+    height: 96%;
+    margin-left: 9px;
+    margin-right: 1px;
+    margin-top: 4px;
+    width: 270px;
+    position: relative;
+}
+
+.portfoliobottomitem4{
+    float: left;
+    height: 96%;
+    margin-left: 9px;
+    margin-right: 1px;
+    margin-top: 4px;
+    width: 270px;
+    position: relative;
+}
+
+.portfoliotop img {
+  height: 100%;
+  width: 100%;
+  cursor:pointer;
+  margin-top: 1px;
+}
+
+.portfoliobottom img {
+  cursor: pointer;
+  height: 100%;
+  margin-top: -4px;
+  width: 100%;
+}
+
+
+
+.portfoliooverlay {
+  background: #ff5400 none repeat scroll 0 0;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0px;
+  transition: all 0.5s linear 0s;
+  width: 0;
+  cursor: pointer;
+}
+
+.portfoliooverlaybottom {
+  background: #ff5400 none repeat scroll 0 0;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: -4px;
+  transition: all 0.5s linear 0s;
+  width: 0;
+  cursor: pointer;
+}
+
+.portfoliotopitem1:hover .portfoliooverlay{
+   width: 100%; 
+}
+
+.portfoliotopitem2:hover .portfoliooverlay{
+   width: 100%; 
+}
+
+.portfoliotopitem3:hover .portfoliooverlay{
+   width: 100%; 
+}
+
+.portfoliotopitem4:hover .portfoliooverlay{
+   width: 100%; 
+}
+
+.portfoliobottomitem1:hover .portfoliooverlaybottom{
+   width: 100%; 
+}
+
+.portfoliobottomitem2:hover .portfoliooverlaybottom{
+   width: 100%; 
+}
+
+.portfoliobottomitem3:hover .portfoliooverlaybottom{
+   width: 100%; 
+}
+
+.portfoliobottomitem4:hover .portfoliooverlaybottom{
+   width: 100%; 
+}
+
+.portfoliooverlay > p {
+  color: #fff;
+  display: block;
+  opacity: 0;
+  position: relative;
+  top: 18px;
+  margin: 24px 26px;
+  font-style: italic;
+  text-transform: uppercase;
+  font-size: 14px;
+  transition: all 0.4s linear;
+}
+
+.portfoliooverlaybottom > p{
+  color: #fff;
+  display: block;
+  opacity: 0;
+  position: relative;
+  top: 18px;
+  margin: 24px 26px;
+  font-style: italic;
+  text-transform: uppercase;
+  font-size: 14px;
+  transition: all 0.4s linear;
+}
+
+.portfoliotopitem1:hover .portfoliooverlay > p{
+    opacity: 1;
+}
+
+.portfoliotopitem2:hover .portfoliooverlay > p{
+    opacity: 1;
+}
+
+.portfoliotopitem3:hover .portfoliooverlay > p{
+    opacity: 1;
+}
+
+.portfoliotopitem4:hover .portfoliooverlay > p{
+    opacity: 1;
+}
+
+.portfoliobottomitem1:hover .portfoliooverlaybottom > p{
+    opacity: 1;
+}
+
+.portfoliobottomitem2:hover .portfoliooverlaybottom > p{
+    opacity: 1;
+}
+
+.portfoliobottomitem3:hover .portfoliooverlaybottom > p{
+    opacity: 1;
+}
+
+.portfoliobottomitem4:hover .portfoliooverlaybottom > p{
+    opacity: 1;
+}
+
+/**********price section***********/
+#price{
+    height: 400px;
+    width: 100%;
+    background-color: #fff;
+}
+
+.mainprice{
+    text-align: center;
+    margin-left: 100px;
+    
+}
+.price1{
+    height: 350px;
+    width: 300px;
+    float: left;
+    margin-top: 20px;
+    margin-right: 12px;
+    cursor: pointer;
+}
+
+.price2{
+    height: 350px;
+    width: 300px;
+    border: 1px solid #e5e5e5;
+    float: left;
+    margin-top: 20px;
+    margin-right: 12px;
+}
+
+.price3{
+    height: 350px;
+    width: 300px;
+    border: 1px solid #e5e5e5;
+    float: left;
+    margin-top: 20px;
+    margin-right: 12px;
+}
+
+.pricetop{
+    height: 40px;
+    width: 100%;
+    background-color: #26262A;
+}
+
+.pricesecondtop{
+    height: 100px;
+    width: 100%;
+    background-color: #e5e5e5;
+    border-bottom: 1px solid rgba(38, 38, 42, 0.74);
+}
+
+.pricemidle{
+    height: 146px;
+    width: 100%;
+    background-color: #e5e5e5;
+    border-bottom: 1px solid rgba(38, 38, 42, 0.74);
+}
+
+.pricebottom{
+    height: 64px;
+    width: 100%;
+    background-color: #e5e5e5; 
+}
+
+.pricetop h2 {
+  color: #fff;
+  font-size: 17px;
+  font-style: italic;
+  font-weight: 200;
+  line-height: 33px;
+  text-transform: uppercase;
+}
+
+.pricesecondtop > p {
+  color: rgb(152, 146, 146);
+  line-height: 25px;
+  text-transform: capitalize;
+}
+
+
+.pricemidle a {
+    color: rgb(152, 146, 146);
+    line-height: 33px;
+    text-align: justify;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.pricemidle li {
+    border-bottom: 1px solid #fff;
+    height: 36px;
+    list-style: outside none none;
+}
+
+.pricebottom > button {
+  background: #fff none repeat scroll 0 0;
+  border: 0 none;
+  cursor: pointer;
+  font-size: 15px;
+  font-style: italic;
+  margin-top: 11px;
+  padding: 10px 61px;
+  text-transform: uppercase;
+  transition:  all 0.4s linear;
+}
+
+.pricebottom > button:hover{
+   background-color: #FF5000;
+   color: #fff;
+}
+
+
+/**********end price section********/
+
+/***********this is for googlemap************/
+#googlemap {
+  height: 400px;
+  overflow: hidden;
+  width: 100%;
+}
+/**********end google map***************/
+
+/************start contact section**********/
+#conatct {
+  background-color: #e5e5e5;
+  height: 400px;
+  padding-bottom: 18px;
+  padding-top: 18px;
+  width: 100%;
+}
+
+.contactcontainer{
+    height: 400px;
+    width: 600px;
+    border: 1px solid #2ABCA7;
+    margin: 0 auto;
+    
+}
+
+.contacttop{
+    height: 60px;
+    width: 100%;
+    background-color: #2ABCA7;
+}
+
+.contacttop > h1 {
+  color: #fff;
+  font-weight: 200;
+  line-height: 60px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.contactmidle{
+    text-align: center;
+}
+
+.name {
+  background: #b0b0b0 none repeat scroll 0 0;
+  border: 0 none;
+  color: #ffffff;
+  font-size: 17px;
+  height: 39px;
+  margin-top: 27px;
+  width: 460px;
+  border-radius: 3px;
+}
+
+.email {
+  background: #b0b0b0 none repeat scroll 0 0;
+  border: 0 none;
+  color: #ffffff;
+  font-size: 17px;
+  height: 39px;
+  margin-top: 9px;
+  width: 460px;
+  border-radius: 3px;
+}
+
+.messege {
+  background: #b0b0b0 none repeat scroll 0 0;
+  border: 0 none;
+  border-radius: 2px;
+  color: #fff;
+  margin-top: 13px;
+}
+
+.contactbottom{
+    text-align: center;
+}
+
+.submit {
+  background: #2abca7 none repeat scroll 0 0;
+  border: 0 none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 21px;
+  padding: 11px 77px;
+  text-transform: uppercase;
+}
+/*********end contact section*************/
+
+/*********start footer section***********/
+#footer{
+    height: 106px;
+    width: 100%;
+    background-color: #2D3E50;
+}
+
+.location{
+    height: 100px;
+    width: 300px;
+    float: left;
+}
+
+.location h4 {
+  color: #fff;
+  font-size: 19px;
+  font-style: italic;
+  font-weight: 200;
+  margin-top: 6px;
+  padding-bottom: 5px;
+  text-align: center;
+  text-transform: uppercase;
+  border-bottom: 2px solid #fd4f02;
+}
+
+.location > p {
+  color: #e5e5e5;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 10px;
+}
+
+.social {
+  float: left;
+  height: 100px;
+  margin-left: 20px;
+  width: 405px;
+}
+
+.social > h4 {
+  border-bottom: 2px solid #ff4f00;
+  color: #fff;
+  display: block;
+  font-size: 19px;
+  font-style: italic;
+  font-weight: 200;
+  margin-top: 6px;
+  padding-bottom: 6px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.social img {
+  height: 26px;
+  left: 133px;
+  margin-right: 15px;
+  position: relative;
+  text-align: center;
+  top: 18px;
+}
+
+.author {
+  float: left;
+  height: 100px;
+  margin-left: 20px;
+  width: 385px;
+}
+
+.author h3 {
+  border-bottom: 2px solid #fd4f01;
+  color: #fff;
+  font-size: 19px;
+  font-style: italic;
+  font-weight: 200;
+  margin-top: 6px;
+  padding-bottom: 6px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.author > p {
+  color: #e5e5e5;
+  font-size: 14px;
+  margin: 0 10px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+
+/*********end footer section***********/
+
+/**************footer2****************/
+#footer2{
+    height: 50px;
+    width: 100%;
+    background-color: #243141;
+}
+
+.footersecondcontent > p {
+  color: #e5e5e5;
+  font-style: italic;
+  font-weight: 200;
+  line-height: 39px;
+  text-align: center;
+  text-transform: uppercase;
+}
+/****************end footer2************/
